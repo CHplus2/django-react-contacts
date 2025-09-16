@@ -4,8 +4,6 @@ A full-stack web application with a **Django REST API backend** (MySQL database)
 and a **React frontend**.  
 Originally built with a plain HTML/JS frontend, now upgraded to React.
 
----
-
 ## Features
 
 ### Backend (Django)
@@ -18,13 +16,9 @@ Originally built with a plain HTML/JS frontend, now upgraded to React.
 - Axios for API calls
 - Automatically updates the list when new contacts are added
 
----
-
 ## Tech Stack
 - **Backend:** Python 3.x, Django 4.x, Django REST Framework, MySQL  
 - **Frontend:** React 19, Axios, React Scripts 5
-
----
 
 ## Getting Started
 
@@ -58,8 +52,6 @@ python manage.py runserver
 
 Backend runs at **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**.
 
----
-
 ### 3. Frontend Setup
 
 From the root folder:
@@ -72,15 +64,11 @@ npm start
 
 Frontend runs at **[http://localhost:3000/](http://localhost:3000/)** and proxies API calls to the Django server.
 
----
-
 ## API Endpoints
 
 * `GET /api/contacts/` – list all contacts
 * `POST /api/contacts/` – create a new contact
 * `DELETE /api/contacts/<id>/` – delete a contact
-
----
 
 ## What I Learned
 
