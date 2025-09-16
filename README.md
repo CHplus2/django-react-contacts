@@ -77,8 +77,6 @@ Frontend runs at **[http://localhost:3000/](http://localhost:3000/)** and proxie
 * Handling state, hooks, and form submissions in React
 * CRUD operations and cross-origin requests (CORS)
 
----
-
 ## Notes
 
 * CSRF protection is disabled in the API for simplicity—**do not use this setup in production**.
