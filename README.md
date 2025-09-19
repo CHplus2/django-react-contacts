@@ -40,8 +40,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The project uses SQLite by default.  
-No database configuration is needed unless you want to switch to another database.
 
 Run migrations and start the server:
 
