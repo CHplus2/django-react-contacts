@@ -1,6 +1,6 @@
 # Django + React Contacts App
 
-A full-stack web application with a **Django REST API backend** (SQLite database)  
+A full-stack web application with a **Django REST API backend**   
 and a **React frontend**.  
 Originally built with a plain HTML/JS frontend, now upgraded to React.
 
@@ -8,7 +8,6 @@ Originally built with a plain HTML/JS frontend, now upgraded to React.
 
 ### Backend (Django)
 - Django REST Framework API for creating, listing, and deleting contacts
-- SQLite database integration
 - Fully functional CRUD operations
 
 ### Frontend (React)
@@ -17,14 +16,14 @@ Originally built with a plain HTML/JS frontend, now upgraded to React.
 - Automatically updates the list when new contacts are added
 
 ## Tech Stack
-- **Backend:** Python 3.x, Django 4.x, Django REST Framework, SQLite
+- **Backend:** Python 3.x, Django 4.x, Django REST Framework
 - **Frontend:** React 19, Axios, React Scripts 5
 
 ## Getting Started
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/<chplus2>/<django-rest-contacts>.git
+git clone https://github.com/chplus2/django-rest-contacts.git
 cd django-rest-contacts
 ````
 
@@ -71,7 +70,6 @@ Frontend runs at **[http://localhost:3000/](http://localhost:3000/)** and proxie
 
 ## What I Learned
 
-* Setting up Django REST Framework with SQLite
 * Building a React app that consumes a REST API
 * Handling state, hooks, and form submissions in React
 * CRUD operations and cross-origin requests (CORS)
